@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Solution](https://your-solution-url.com)
+-   Solution URL: [Solution](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U/hub)
 -   Live Site URL: [Live Site](https://jp-nft-preview.netlify.app/)
 
 ## My process
