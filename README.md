@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 -   Solution URL: [Solution](https://your-solution-url.com)
--   Live Site URL: [Live Site](https://your-live-site-url.com)
+-   Live Site URL: [Live Site](https://jp-nft-preview.netlify.app/)
 
 ## My process
 
