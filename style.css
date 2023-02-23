@@ -39,6 +39,7 @@ img {
 
 .card-wrapper img {
 	border-radius: 10px;
+	cursor: pointer;
 }
 
 .card-content {
@@ -101,4 +102,44 @@ img {
 
 hr {
 	opacity: 0.1;
+}
+
+.card-content h1:hover,
+.card-footer p span:hover {
+	color: var(--cyan);
+	cursor: pointer;
+}
+
+.img-container {
+	position: relative;
+}
+.img-container::after {
+	content: '';
+	position: absolute;
+	border-radius: 10px;
+	inset: 0;
+	background-color: hsla(178, 100%, 50%, 0.6);
+	z-index: 1;
+	cursor: pointer;
+	opacity: 0;
+	transition: opacity 500ms;
+}
+
+.img-container:hover::after {
+	transition: opacity 150ms;
+	opacity: 1;
+}
+
+.eye-icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	opacity: 0;
+}
+
+.img-container:hover .eye-icon {
+	opacity: 1;
+	cursor: pointer;
 }
